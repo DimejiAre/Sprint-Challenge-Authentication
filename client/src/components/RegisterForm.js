@@ -29,6 +29,7 @@ function RegisterForm(props){
         render={props => {
             return(
                 <Form className='form'>
+                  <h2>Register</h2>
                     <label htmlFor='username'>username</label>
                     <Field name='username' type='text' placeholder='username'/>
                     <label htmlFor='password'>password</label>
